@@ -1,0 +1,1734 @@
+[
+    {
+        "value": "CanMove",
+        "label": "[盔甲架]是否可以被移动",
+        "hint": "是否可以被移动",
+        "number": [
+            {
+                "0": "可否移动",
+                "1": "true/false"
+            }
+        ],
+        "name": "盔甲架"
+    },
+    {
+        "value": "CanTick",
+        "label": "[盔甲架]是否可以被标记",
+        "hint": "是否可以被标记",
+        "number": [
+            {
+                "0": "可否标记",
+                "1": "true/false"
+            }
+        ],
+        "name": "盔甲架"
+    },
+    {
+        "value": "HasArms",
+        "label": "[盔甲架]是否拥有手臂",
+        "hint": "是否拥有手臂",
+        "number": [
+            {
+                "0": "可否拥有",
+                "1": "true/false"
+            }
+        ],
+        "name": "盔甲架"
+    },
+    {
+        "value": "HasBasePlate",
+        "label": "[盔甲架]是否拥有底座",
+        "hint": "是否拥有底座",
+        "number": [
+            {
+                "0": "可否拥有",
+                "1": "true/false"
+            }
+        ],
+        "name": "盔甲架"
+    },
+    {
+        "value": "HasGravity",
+        "label": "[盔甲架]是否拥有重力",
+        "hint": "是否拥有底座",
+        "number": [
+            {
+                "0": "可否拥有",
+                "1": "true/false"
+            }
+        ],
+        "name": "盔甲架"
+    },
+    {
+        "value": "Invisible",
+        "label": "[盔甲架]是否不可见",
+        "hint": "是否不可见",
+        "number": [
+            {
+                "0": "可否可见",
+                "1": "true/false"
+            }
+        ],
+        "name": "盔甲架"
+    },
+    {
+        "value": "ItemHand",
+        "label": "[盔甲架]主手部位物品",
+        "hint": "主手部位物品",
+        "number": [
+            {
+                "0": "主手物品",
+                "1": "物品ID"
+            }
+        ],
+        "name": "盔甲架"
+    },
+    {
+        "value": "ItemHead",
+        "label": "[盔甲架]头部部位物品",
+        "hint": "头部部位物品",
+        "number": [
+            {
+                "0": "头部物品",
+                "1": "物品ID"
+            }
+        ],
+        "name": "盔甲架"
+    },
+    {
+        "value": "ItemBody",
+        "label": "[盔甲架]身体部位物品",
+        "hint": "身体部位物品",
+        "number": [
+            {
+                "0": "身体物品",
+                "1": "物品ID"
+            }
+        ],
+        "name": "盔甲架"
+    },
+    {
+        "value": "ItemLegs",
+        "label": "[盔甲架]护腿部分物品",
+        "hint": "护腿部分物品",
+        "number": [
+            {
+                "0": "护腿物品",
+                "1": "物品ID"
+            }
+        ],
+        "name": "盔甲架"
+    },
+    {
+        "value": "ItemFeet",
+        "label": "[盔甲架]脚部位物品",
+        "hint": "脚部位物品",
+        "number": [
+            {
+                "0": "脚物品",
+                "1": "物品ID"
+            }
+        ],
+        "name": "盔甲架"
+    },
+    {
+        "value": "Marker",
+        "label": "[盔甲架]是否不可交互物品与破坏盔甲架",
+        "hint": "是否不可交互物品与破坏盔甲架",
+        "number": [
+            {
+                "0": "是否不可",
+                "1": "true/false"
+            }
+        ],
+        "name": "盔甲架"
+    },
+    {
+        "value": "Small",
+        "label": "[盔甲架]是否为小型",
+        "hint": "是否为小型",
+        "number": [
+            {
+                "0": "是否小型",
+                "1": "true/false"
+            }
+        ],
+        "name": "盔甲架"
+    },
+    {
+        "value": "Pose",
+        "label": "[盔甲架]盔甲架姿势",
+        "hint": "请输入[0,0,0]表示一个位置,位置依次为头部 身体 左手 右手 左脚 右脚",
+        "number": [
+            {
+                "0": "姿势数值",
+                "1": "右侧详细"
+            }
+        ],
+        "name": "盔甲架"
+    },
+    {
+        "value": "Anger",
+        "label": "[蜜蜂]多久后取消愤怒",
+        "hint": "多久后取消愤怒",
+        "number": [
+            {
+                "0": "取消时间",
+                "1": "数值"
+            }
+        ],
+        "name": "蜜蜂"
+    },
+    {
+        "value": "HasNectar",
+        "label": "[蜜蜂]是否拥有花蜜",
+        "hint": "是否拥有花蜜",
+        "number": [
+            {
+                "0": "是否拥有",
+                "1": "true/false"
+            }
+        ],
+        "name": "蜜蜂"
+    },
+    {
+        "value": "HasStung",
+        "label": "[蜜蜂]是否已刺击一个实体",
+        "hint": "是否已刺击一个实体",
+        "number": [
+            {
+                "0": "是否已刺",
+                "1": "true/false"
+            }
+        ],
+        "name": "蜜蜂"
+    },
+    {
+        "value": "CatType",
+        "label": "[猫]设置猫的皮肤种类",
+        "hint": "ALL_BLACK, BLACK, BRITISH_SHORTHAIR, CALICO, PERSIAN, JELLIE, RAGDOLL, RED, SIAMESE, TABBY 或 WHITE",
+        "number": [
+            {
+                "0": "猫的种类",
+                "1": "详细右侧"
+            }
+        ],
+        "name": "猫"
+    },
+    {
+        "value": "CollarColor",
+        "label": "[猫]设置猫的项圈种类",
+        "hint": "BLACK, BLUE, BROWN, CYAN, GRAY, GREEN, LIGHT_BLUE, LIGHT_GRAY, LIME, MAGENTA, ORANGE, PINK, PURPLE, RED, WHITE, 或 YELLOW",
+        "number": [
+            {
+                "0": "项圈种类",
+                "1": "详细右侧"
+            }
+        ],
+        "name": "猫"
+    },
+    {
+        "value": "Jockey",
+        "label": "[鸡]是否为坐骑",
+        "hint": "是否为坐骑",
+        "number": [
+            {
+                "0": "是否坐骑",
+                "1": "true/false"
+            }
+        ],
+        "name": "鸡"
+    },
+    {
+        "value": "ExplosionRadius",
+        "label": "[爬行者]爆炸范围",
+        "hint": "爆炸范围",
+        "number": [
+            {
+                "0": "爆炸范围",
+                "1": "数值"
+            }
+        ],
+        "name": "爬行者"
+    },
+    {
+        "value": "FuseTicks",
+        "label": "[爬行者]爆炸延迟",
+        "hint": "爆炸延迟",
+        "number": [
+            {
+                "0": "爆炸延迟",
+                "1": "数值"
+            }
+        ],
+        "name": "爬行者"
+    },
+    {
+        "value": "SuperCharged",
+        "label": "[爬行者]是否为高压状态",
+        "hint": "是否为高压状态",
+        "number": [
+            {
+                "0": "是否高压",
+                "1": "true/false"
+            }
+        ],
+        "name": "爬行者"
+    },
+    {
+        "value": "PreventSuicide",
+        "label": "[爬行者]防止爬行者爆炸后消失",
+        "hint": "防止爬行者爆炸后消失",
+        "number": [
+            {
+                "0": "是否防止",
+                "1": "true/false"
+            }
+        ],
+        "name": "爬行者"
+    },
+    {
+        "value": "PreventTeleport",
+        "label": "[末影人]是否防止传送",
+        "hint": "是否防止传送",
+        "number": [
+            {
+                "0": "是否防止",
+                "1": "true/false"
+            }
+        ],
+        "name": "末影人"
+    },
+    {
+        "value": "HeldBlock",
+        "label": "[末影人]正在手持的方块",
+        "hint": "正在手持的方块",
+        "number": [
+            {
+                "0": "方块ID",
+                "1": "英文ID"
+            }
+        ],
+        "name": "末影人"
+    },
+    {
+        "value": "Experience",
+        "label": "[经验球]经验数值",
+        "hint": "经验数值",
+        "number": [
+            {
+                "0": "经验数值",
+                "1": "数值"
+            }
+        ],
+        "name": "经验球"
+    },
+    {
+        "value": "Block",
+        "label": "[掉落沙]掉落沙对应的方块类型",
+        "hint": "掉落沙对应的方块类型",
+        "number": [
+            {
+                "0": "方块类型",
+                "1": "英文ID"
+            }
+        ],
+        "name": "掉落沙"
+    },
+    {
+        "value": "BlockData",
+        "label": "[掉落沙]方块特殊数据值",
+        "hint": "方块特殊数据值",
+        "number": [
+            {
+                "0": "特殊数值",
+                "1": "数值"
+            }
+        ],
+        "name": "掉落沙"
+    },
+    {
+        "value": "DropsItem",
+        "label": "[掉落沙]着地后是否掉落方块",
+        "hint": "着地后是否掉落方块",
+        "number": [
+            {
+                "0": "是否掉落",
+                "1": "true/false"
+            }
+        ],
+        "name": "掉落沙"
+    },
+    {
+        "value": "HurtsEntities",
+        "label": "[掉落沙]是否伤害其它实体",
+        "hint": "是否伤害其它实体",
+        "number": [
+            {
+                "0": "是否伤害",
+                "1": "true/false"
+            }
+        ],
+        "name": "掉落沙"
+    },
+    {
+        "value": "ReplaceSpawnLocationBlock",
+        "label": "[掉落沙]是否覆盖生成时所处位置的方块",
+        "hint": "是否覆盖生成时所处位置的方块",
+        "number": [
+            {
+                "0": "是否覆盖",
+                "1": "true/false"
+            }
+        ],
+        "name": "掉落沙"
+    },
+    {
+        "value": "UseSpawnLocation",
+        "label": "[掉落沙]是否从生成位置掉落而不是稍微向上偏移",
+        "hint": "是否从生成位置掉落而不是稍微向上偏移",
+        "number": [
+            {
+                "0": "是否偏移",
+                "1": "true/false"
+            }
+        ],
+        "name": "掉落沙"
+    },
+    {
+        "value": "FoxType",
+        "label": "[狐狸]狐狸的毛色",
+        "hint": "可为RED(棕红) 或SNOW(雪白)",
+        "number": [
+            {
+                "0": "狐狸毛色",
+                "1": "详细右侧"
+            }
+        ],
+        "name": "狐狸"
+    },
+    {
+        "value": "ImmuneToZombification",
+        "label": "[疣猪兽]是否防止疣猪兽僵尸化",
+        "hint": "是否防止疣猪兽僵尸化",
+        "number": [
+            {
+                "0": "是否防止",
+                "1": "true/false"
+            }
+        ],
+        "name": "疣猪兽"
+    },
+    {
+        "value": "Huntable",
+        "label": "[疣猪兽]是否被猪灵猎杀",
+        "hint": "是否被猪灵猎杀",
+        "number": [
+            {
+                "0": "是否被猎",
+                "1": "true/false"
+            }
+        ],
+        "name": "疣猪兽"
+    },
+    {
+        "value": "HorseArmor",
+        "label": "[马]出生后所穿戴的马凯",
+        "hint": "iron(铁), gold(金), or diamond(钻石)",
+        "number": [
+            {
+                "0": "马凯类型",
+                "1": "详细右侧"
+            }
+        ],
+        "name": "马"
+    },
+    {
+        "value": "HorseColor",
+        "label": "[马]马的毛色",
+        "hint": "BLACK(黑), BROWN(棕), CHESTNUT(深红棕), CREAMY(淡黄), DARK_BROWN(深棕), GRAY(灰暗) WHITE(白)",
+        "number": [
+            {
+                "0": "马的毛色",
+                "1": "详细右侧"
+            }
+        ],
+        "name": "马"
+    },
+    {
+        "value": "Saddled",
+        "label": "[马]是否装备鞍",
+        "hint": "是否装备鞍",
+        "number": [
+            {
+                "0": "是否装备",
+                "1": "true/false"
+            }
+        ],
+        "name": "马"
+    },
+    {
+        "value": "HorseStyle",
+        "label": "[马]皮肤纹理",
+        "hint": "BLACK_DOTS(黑点), WHITE(白), WHITE_DOTS(白点), WHITEFIELD(?)",
+        "number": [
+            {
+                "0": "皮肤纹理",
+                "1": "详细右侧"
+            }
+        ],
+        "name": "马"
+    },
+    {
+        "value": "Tamed",
+        "label": "[马]是否已驯服",
+        "hint": "是否已驯服",
+        "number": [
+            {
+                "0": "是否驯服",
+                "1": "true/false"
+            }
+        ],
+        "name": "马"
+    },
+    {
+        "value": "HorseArmor",
+        "label": "[驴]出生后所穿戴的马凯",
+        "hint": "iron(铁), gold(金), or diamond(钻石)",
+        "number": [
+            {
+                "0": "马凯类型",
+                "1": "详细右侧"
+            }
+        ],
+        "name": "驴"
+    },
+    {
+        "value": "CarryingChest",
+        "label": "[驴]是否装备箱子",
+        "hint": "是否装备箱子",
+        "number": [
+            {
+                "0": "是否装备",
+                "1": "true/false"
+            }
+        ],
+        "name": "驴"
+    },
+    {
+        "value": "HorseColor",
+        "label": "[驴]马的毛色",
+        "hint": "BLACK(黑), BROWN(棕), CHESTNUT(深红棕), CREAMY(淡黄), DARK_BROWN(深棕), GRAY(灰暗) WHITE(白)",
+        "number": [
+            {
+                "0": "马的毛色",
+                "1": "详细右侧"
+            }
+        ],
+        "name": "驴"
+    },
+    {
+        "value": "Saddled",
+        "label": "[驴]是否装备鞍",
+        "hint": "是否装备鞍",
+        "number": [
+            {
+                "0": "是否装备",
+                "1": "true/false"
+            }
+        ],
+        "name": "驴"
+    },
+    {
+        "value": "HorseStyle",
+        "label": "[驴]皮肤纹理",
+        "hint": "BLACK_DOTS(黑点), WHITE(白), WHITE_DOTS(白点), WHITEFIELD(?)",
+        "number": [
+            {
+                "0": "皮肤纹理",
+                "1": "详细右侧"
+            }
+        ],
+        "name": "驴"
+    },
+    {
+        "value": "Tamed",
+        "label": "[驴]是否已驯服",
+        "hint": "是否已驯服",
+        "number": [
+            {
+                "0": "是否驯服",
+                "1": "true/false"
+            }
+        ],
+        "name": "驴"
+    },
+    {
+        "value": "HorseArmor",
+        "label": "[骡]出生后所穿戴的马凯",
+        "hint": "iron(铁), gold(金), or diamond(钻石)",
+        "number": [
+            {
+                "0": "马凯类型",
+                "1": "详细右侧"
+            }
+        ],
+        "name": "骡"
+    },
+    {
+        "value": "HorseColor",
+        "label": "[骡]马的毛色",
+        "hint": "BLACK(黑), BROWN(棕), CHESTNUT(深红棕), CREAMY(淡黄), DARK_BROWN(深棕), GRAY(灰暗) WHITE(白)",
+        "number": [
+            {
+                "0": "马的毛色",
+                "1": "详细右侧"
+            }
+        ],
+        "name": "骡"
+    },
+    {
+        "value": "Saddled",
+        "label": "[骡]是否装备鞍",
+        "hint": "是否装备鞍",
+        "number": [
+            {
+                "0": "是否装备",
+                "1": "true/false"
+            }
+        ],
+        "name": "骡"
+    },
+    {
+        "value": "HorseStyle",
+        "label": "[骡]皮肤纹理",
+        "hint": "BLACK_DOTS(黑点), WHITE(白), WHITE_DOTS(白点), WHITEFIELD(?)",
+        "number": [
+            {
+                "0": "皮肤纹理",
+                "1": "详细右侧"
+            }
+        ],
+        "name": "骡"
+    },
+    {
+        "value": "Tamed",
+        "label": "[骡]是否已驯服",
+        "hint": "是否已驯服",
+        "number": [
+            {
+                "0": "是否驯服",
+                "1": "true/false"
+            }
+        ],
+        "name": "骡"
+    },
+    {
+        "value": "PlayerCreated",
+        "label": "[铁傀儡]是否由玩家创造",
+        "hint": "是否由玩家创造",
+        "number": [
+            {
+                "0": "玩家创造",
+                "1": "true/false"
+            }
+        ],
+        "name": "铁傀儡"
+    },
+    {
+        "value": "PlayerCreated",
+        "label": "[豹猫]颜色",
+        "hint": "BLACK_CAT(黑),RED_CAT(红棕), SIAMESE_CAT(浅棕), WILD_OCELOT(虎皮斑点).",
+        "number": [
+            {
+                "0": "颜色类型",
+                "1": "详细右侧"
+            }
+        ],
+        "name": "豹猫"
+    },
+    {
+        "value": "MainGene",
+        "label": "[熊猫]显性基因",
+        "hint": "NORMAL(普通) AGGRESSIVE(好斗) LAZY(懒惰) WORRIED(发愁) PLAYFUL(贪玩) weak(虚弱) brown(棕色)",
+        "number": [
+            {
+                "0": "显性基因",
+                "1": "详细右侧"
+            }
+        ],
+        "name": "熊猫"
+    },
+    {
+        "value": "HiddenGene",
+        "label": "[熊猫]隐性基因",
+        "hint": "NORMAL(普通) AGGRESSIVE(好斗) LAZY(懒惰) WORRIED(发愁) PLAYFUL(贪玩) weak(虚弱) brown(棕色)",
+        "number": [
+            {
+                "0": "隐性基因",
+                "1": "详细右侧"
+            }
+        ],
+        "name": "熊猫"
+    },
+    {
+        "value": "AbleToHunt",
+        "label": "[猪灵]是否允许狩猎",
+        "hint": "是否允许狩猎",
+        "number": [
+            {
+                "0": "是否允许",
+                "1": "true/false"
+            }
+        ],
+        "name": "猪灵"
+    },
+    {
+        "value": "ImmuneToZombification",
+        "label": "[猪灵]是否防止僵尸化",
+        "hint": "是否防止僵尸化",
+        "number": [
+            {
+                "0": "是否防止",
+                "1": "true/false"
+            }
+        ],
+        "name": "猪灵"
+    },
+    {
+        "value": "Saddled",
+        "label": "[猪]是否装备鞍",
+        "hint": "是否装备鞍",
+        "number": [
+            {
+                "0": "是否装备",
+                "1": "true/false"
+            }
+        ],
+        "name": "猪"
+    },
+    {
+        "value": "RabbitType",
+        "label": "[兔子]毛色",
+        "hint": "BLACK(黑), BLACK_AND_WHITE(黑白), BROWN(棕), GOLD(金), SALT_AND_PEPPER(咖啡色), THE_KILLER_BUNNY(杀手兔) or WHITE(白)",
+        "number": [
+            {
+                "0": "兔子毛色",
+                "1": "详细右侧"
+            }
+        ],
+        "name": "兔子"
+    },
+    {
+        "value": "RabbitType",
+        "label": "[兔子]是否为小兔子",
+        "hint": "是否为小兔子",
+        "number": [
+            {
+                "0": "为小兔子",
+                "1": "true/false"
+            }
+        ],
+        "name": "兔子"
+    },
+    {
+        "value": "IsKillerBunny",
+        "label": "[兔子]是否为杀手兔",
+        "hint": "是否为杀手兔",
+        "number": [
+            {
+                "0": "是否为杀手兔",
+                "1": "true/false"
+            }
+        ],
+        "name": "兔子"
+    },
+    {
+        "value": "PreventBlockInfection",
+        "label": "[蠹虫]是否防止钻入方块",
+        "hint": "是否防止钻入方块",
+        "number": [
+            {
+                "0": "是否防止",
+                "1": "true/false"
+            }
+        ],
+        "name": "蠹虫"
+    },
+    {
+        "value": "Derp",
+        "label": "[雪傀儡]南瓜头是否被修剪",
+        "hint": "南瓜头是否被修剪",
+        "number": [
+            {
+                "0": "是否修剪",
+                "1": "true/false"
+            }
+        ],
+        "name": "雪傀儡"
+    },
+    {
+        "value": "PreventSnowFormation",
+        "label": "[雪傀儡]是否防止在经过的路上形成雪",
+        "hint": "是否防止在经过的路上形成雪",
+        "number": [
+            {
+                "0": "是否防止",
+                "1": "true/false"
+            }
+        ],
+        "name": "雪傀儡"
+    },
+    {
+        "value": "FuseTicks",
+        "label": "[炸药]延迟多少tick后爆炸",
+        "hint": "延迟多少tick后爆炸",
+        "number": [
+            {
+                "0": "延迟时间",
+                "1": "数值"
+            }
+        ],
+        "name": "炸药"
+    },
+    {
+        "value": "ExplosionYield",
+        "label": "[炸药]爆炸强度",
+        "hint": "爆炸强度",
+        "number": [
+            {
+                "0": "爆炸强度",
+                "1": "数值"
+            }
+        ],
+        "name": "炸药"
+    },
+    {
+        "value": "Incendiary",
+        "label": "[炸药]是否会点燃周围的方块",
+        "hint": "是否会点燃周围的方块",
+        "number": [
+            {
+                "0": "是否点燃",
+                "1": "true/false"
+            }
+        ],
+        "name": "炸药"
+    },
+    {
+        "value": "Pattern",
+        "label": "[热带鱼]条纹类型",
+        "hint": "BETTY, BLOCKFISH, BRINELY, CLAYFISH, DASHER, FLOPPER, GLITTER, KOB, SNOOPER, SPOTTY, STRIPEY, or SUNSTREAK",
+        "number": [
+            {
+                "0": "条纹类型",
+                "1": "详细右侧"
+            }
+        ],
+        "name": "热带鱼"
+    },
+    {
+        "value": "BodyColor",
+        "label": "[热带鱼]身体颜色",
+        "hint": "BLACK, BLUE, BROWN, CYAN, GRAY, GREEN, LIGHT_BLUE, LIGHT_GRAY, LIME, MAGENTA, ORANGE, PINK, PURPLE, RED, WHITE, or YELLOW",
+        "number": [
+            {
+                "0": "身体颜色",
+                "1": "详细右侧"
+            }
+        ],
+        "name": "热带鱼"
+    },
+    {
+        "value": "PatternColor",
+        "label": "[热带鱼]条纹颜色",
+        "hint": "BLACK, BLUE, BROWN, CYAN, GRAY, GREEN, LIGHT_BLUE, LIGHT_GRAY, LIME, MAGENTA, ORANGE, PINK, PURPLE, RED, WHITE, or YELLOW",
+        "number": [
+            {
+                "0": "条纹颜色",
+                "1": "详细右侧"
+            }
+        ],
+        "name": "热带鱼"
+    },
+    {
+        "value": "HasTrades",
+        "label": "[村民]是否可交易",
+        "hint": "是否可交易",
+        "number": [
+            {
+                "0": "能否交易",
+                "1": "true/false"
+            }
+        ],
+        "name": "村民"
+    },
+    {
+        "value": "Profession",
+        "label": "[村民]设置村民的职业",
+        "hint": "ARMORER(盔甲匠), BUTCHER(屠夫), CARTOGROPHER(制图师), CLERIC(牧师), FARMER(农民), FISHERMAN(渔夫), FLETCHER(制箭师), LEATHERWORKER(皮匠), LIBRARIAN(图书管理员), MASON(石匠), NITWIT(傻子), NONE(失业), SHEPHERD(牧羊人), TOOLSMITH(工具匠), WEAPONSMITH(武器匠), 任意字符（随机）",
+        "number": [
+            {
+                "0": "村民职业",
+                "1": "详细右侧"
+            }
+        ],
+        "name": "村民"
+    },
+    {
+        "value": "Type",
+        "label": "[村民]服饰种类",
+        "hint": "DESERT(沙漠), JUNGLE(丛林), PLAINS(草原), SAVANNA(热带草原), SNOW(雪地), SWAMP(沼泽), TAIGA(针叶林)",
+        "number": [
+            {
+                "0": "服饰种类",
+                "1": "详细右侧"
+            }
+        ],
+        "name": "村民"
+    },
+    {
+        "value": "Level",
+        "label": "[村民]职业等级",
+        "hint": "职业等级",
+        "number": [
+            {
+                "0": "职业等级",
+                "1": "1~5"
+            }
+        ],
+        "name": "村民"
+    },
+    {
+        "value": "PreventJockeyMounts",
+        "label": "[僵尸]防止生成后骑乘鸡",
+        "hint": "防止生成后骑乘鸡",
+        "number": [
+            {
+                "0": "是否防止",
+                "1": "true/false"
+            }
+        ],
+        "name": "僵尸"
+    },
+    {
+        "value": "PreventTransformation",
+        "label": "[僵尸]防止转化为猪灵/溺尸",
+        "hint": "防止转化为猪灵/溺尸",
+        "number": [
+            {
+                "0": "是否防止",
+                "1": "true/false"
+            }
+        ],
+        "name": "僵尸"
+    },
+    {
+        "value": "ReinforcementsChance",
+        "label": "[僵尸]受伤后召唤援军的概率",
+        "hint": "受伤后召唤援军的概率",
+        "number": [
+            {
+                "0": "召唤概率",
+                "1": "0~1"
+            }
+        ],
+        "name": "僵尸"
+    },
+    {
+        "value": "Profession",
+        "label": "[僵尸村民]设置当前职业与治愈后自身的职业",
+        "hint": "ARMORER(盔甲匠), BUTCHER(屠夫), CARTOGROPHER(制图师), CLERIC(牧师), FARMER(农民), FISHERMAN(渔夫), FLETCHER(制箭师), LEATHERWORKER(皮匠), LIBRARIAN(图书管理员), MASON(石匠), NITWIT(傻子), NONE(失业), SHEPHERD(牧羊人), TOOLSMITH(工具匠), WEAPONSMITH(武器匠)",
+        "number": [
+            {
+                "0": "职业类型",
+                "1": "详细右侧"
+            }
+        ],
+        "name": "僵尸村民"
+    },
+    {
+        "value": "PreventSlimeSplit",
+        "label": "[史莱姆]是否防止史莱姆死亡分裂",
+        "hint": " 是否防止史莱姆死亡分裂",
+        "number": [
+            {
+                "0": "是否防止",
+                "1": "true/false"
+            }
+        ],
+        "name": "史莱姆"
+    },
+    {
+        "value": "PreventSlimeSplit",
+        "label": "[岩浆怪]是否防止岩浆怪死亡分裂",
+        "hint": " 是否防止史莱姆死亡分裂",
+        "number": [
+            {
+                "0": "是否防止",
+                "1": "true/false"
+            }
+        ],
+        "name": "岩浆怪"
+    },
+
+
+
+    {
+        "value": "Age",
+        "label": "[可繁殖]年龄",
+        "hint": " 年龄",
+        "number": [
+            {
+                "0": "年龄",
+                "1": "-1为幼年,1为成年"
+            }
+        ],
+        "name": "鸡"
+    },
+    {
+        "value": "AgeLock",
+        "label": "[可繁殖]是否锁定年龄",
+        "hint": " 是否锁定年龄",
+        "number": [
+            {
+                "0": "是否锁定",
+                "1": "true/false"
+            }
+        ],
+        "name": "鸡"
+    },
+    {
+        "value": "Baby",
+        "label": "[可繁殖]是否为幼年",
+        "hint": " 是否为幼年",
+        "number": [
+            {
+                "0": "是否幼年",
+                "1": "true/false"
+            }
+        ],
+        "name": "鸡"
+    },
+
+    {
+        "value": "Age",
+        "label": "[可繁殖]年龄",
+        "hint": " 年龄",
+        "number": [
+            {
+                "0": "年龄",
+                "1": "-1为幼年,1为成年"
+            }
+        ],
+        "name": "牛"
+    },
+    {
+        "value": "AgeLock",
+        "label": "[可繁殖]是否锁定年龄",
+        "hint": " 是否锁定年龄",
+        "number": [
+            {
+                "0": "是否锁定",
+                "1": "true/false"
+            }
+        ],
+        "name": "牛"
+    },
+    {
+        "value": "Baby",
+        "label": "[可繁殖]是否为幼年",
+        "hint": " 是否为幼年",
+        "number": [
+            {
+                "0": "是否幼年",
+                "1": "true/false"
+            }
+        ],
+        "name": "牛"
+    },
+
+    {
+        "value": "Age",
+        "label": "[可繁殖]年龄",
+        "hint": " 年龄",
+        "number": [
+            {
+                "0": "年龄",
+                "1": "-1为幼年,1为成年"
+            }
+        ],
+        "name": "马"
+    },
+    {
+        "value": "AgeLock",
+        "label": "[可繁殖]是否锁定年龄",
+        "hint": " 是否锁定年龄",
+        "number": [
+            {
+                "0": "是否锁定",
+                "1": "true/false"
+            }
+        ],
+        "name": "马"
+    },
+    {
+        "value": "Baby",
+        "label": "[可繁殖]是否为幼年",
+        "hint": " 是否为幼年",
+        "number": [
+            {
+                "0": "是否幼年",
+                "1": "true/false"
+            }
+        ],
+        "name": "马"
+    },
+
+    {
+        "value": "Age",
+        "label": "[可繁殖]年龄",
+        "hint": " 年龄",
+        "number": [
+            {
+                "0": "年龄",
+                "1": "-1为幼年,1为成年"
+            }
+        ],
+        "name": "猪"
+    },
+    {
+        "value": "AgeLock",
+        "label": "[可繁殖]是否锁定年龄",
+        "hint": " 是否锁定年龄",
+        "number": [
+            {
+                "0": "是否锁定",
+                "1": "true/false"
+            }
+        ],
+        "name": "猪"
+    },
+    {
+        "value": "Baby",
+        "label": "[可繁殖]是否为幼年",
+        "hint": " 是否为幼年",
+        "number": [
+            {
+                "0": "是否幼年",
+                "1": "true/false"
+            }
+        ],
+        "name": "猪"
+    },
+
+    {
+        "value": "Age",
+        "label": "[可繁殖]年龄",
+        "hint": " 年龄",
+        "number": [
+            {
+                "0": "年龄",
+                "1": "-1为幼年,1为成年"
+            }
+        ],
+        "name": "兔"
+    },
+    {
+        "value": "AgeLock",
+        "label": "[可繁殖]是否锁定年龄",
+        "hint": " 是否锁定年龄",
+        "number": [
+            {
+                "0": "是否锁定",
+                "1": "true/false"
+            }
+        ],
+        "name": "兔"
+    },
+    {
+        "value": "Baby",
+        "label": "[可繁殖]是否为幼年",
+        "hint": " 是否为幼年",
+        "number": [
+            {
+                "0": "是否幼年",
+                "1": "true/false"
+            }
+        ],
+        "name": "兔"
+    },
+
+    {
+        "value": "Age",
+        "label": "[可繁殖]年龄",
+        "hint": " 年龄",
+        "number": [
+            {
+                "0": "年龄",
+                "1": "-1为幼年,1为成年"
+            }
+        ],
+        "name": "羊"
+    },
+    {
+        "value": "AgeLock",
+        "label": "[可繁殖]是否锁定年龄",
+        "hint": " 是否锁定年龄",
+        "number": [
+            {
+                "0": "是否锁定",
+                "1": "true/false"
+            }
+        ],
+        "name": "羊"
+    },
+    {
+        "value": "Baby",
+        "label": "[可繁殖]是否为幼年",
+        "hint": " 是否为幼年",
+        "number": [
+            {
+                "0": "是否幼年",
+                "1": "true/false"
+            }
+        ],
+        "name": "羊"
+    },
+
+    {
+        "value": "Age",
+        "label": "[可繁殖]年龄",
+        "hint": " 年龄",
+        "number": [
+            {
+                "0": "年龄",
+                "1": "-1为幼年,1为成年"
+            }
+        ],
+        "name": "村民"
+    },
+    {
+        "value": "AgeLock",
+        "label": "[可繁殖]是否锁定年龄",
+        "hint": " 是否锁定年龄",
+        "number": [
+            {
+                "0": "是否锁定",
+                "1": "true/false"
+            }
+        ],
+        "name": "村民"
+    },
+    {
+        "value": "Baby",
+        "label": "[可繁殖]是否为幼年",
+        "hint": " 是否为幼年",
+        "number": [
+            {
+                "0": "是否幼年",
+                "1": "true/false"
+            }
+        ],
+        "name": "村民"
+    },
+
+    {
+        "value": "Color",
+        "label": "[可染色]颜色类型",
+        "hint": " 颜色类型",
+        "number": [
+            {
+                "0": "颜色类型",
+                "1": "颜色类型"
+            }
+        ],
+        "name": "羊"
+    },
+    {
+        "value": "Color",
+        "label": "[可染色]颜色类型",
+        "hint": " 颜色类型",
+        "number": [
+            {
+                "0": "颜色类型",
+                "1": "颜色类型"
+            }
+        ],
+        "name": "狼"
+    },
+    {
+        "value": "Color",
+        "label": "[可染色]颜色类型",
+        "hint": " 颜色类型",
+        "number": [
+            {
+                "0": "颜色类型",
+                "1": "颜色类型"
+            }
+        ],
+        "name": "猫"
+    },
+
+    {
+        "value": "Angry",
+        "label": "[可愤怒]是否愤怒",
+        "hint": " 是否愤怒",
+        "number": [
+            {
+                "0": "是否愤怒",
+                "1": "true/false"
+            }
+        ],
+        "name": "狼"
+    },
+    {
+        "value": "Angry",
+        "label": "[可愤怒]是否愤怒",
+        "hint": " 是否愤怒",
+        "number": [
+            {
+                "0": "是否愤怒",
+                "1": "true/false"
+            }
+        ],
+        "name": "猪灵"
+    },
+
+    {
+        "value": "Size",
+        "label": "[可调整大小]大小",
+        "hint": " 大小",
+        "number": [
+            {
+                "0": "数值大小",
+                "1": "数值"
+            }
+        ],
+        "name": "史莱姆"
+    },
+    {
+        "value": "Size",
+        "label": "[可调整大小]大小",
+        "hint": " 大小",
+        "number": [
+            {
+                "0": "数值大小",
+                "1": "数值"
+            }
+        ],
+        "name": "岩浆怪"
+    },
+    {
+        "value": "Size",
+        "label": "[可调整大小]大小",
+        "hint": " 大小",
+        "number": [
+            {
+                "0": "数值大小",
+                "1": "数值"
+            }
+        ],
+        "name": "幻翼"
+    },
+
+    {
+        "value": "Tameable",
+        "label": "[可驯服]是否可驯服",
+        "hint": " 是否可驯服",
+        "number": [
+            {
+                "0": "是否可以",
+                "1": "true/false"
+            }
+        ],
+        "name": "狼"
+    },
+    {
+        "value": "Tameable",
+        "label": "[可驯服]是否可驯服",
+        "hint": " 是否可驯服",
+        "number": [
+            {
+                "0": "是否可以",
+                "1": "true/false"
+            }
+        ],
+        "name": "马"
+    },
+    {
+        "value": "Tameable",
+        "label": "[可驯服]是否可驯服",
+        "hint": " 是否可驯服",
+        "number": [
+            {
+                "0": "是否可以",
+                "1": "true/false"
+            }
+        ],
+        "name": "羊驼"
+    },
+
+    {
+        "value": "FlyingSpeed",
+        "label": "[可飞行]飞行速度",
+        "hint": " 飞行速度",
+        "number": [
+            {
+                "0": "飞行速度",
+                "1": "数值"
+            }
+        ],
+        "name": "幻翼"
+    },
+    {
+        "value": "FlyingSpeed",
+        "label": "[可飞行]飞行速度",
+        "hint": " 飞行速度",
+        "number": [
+            {
+                "0": "飞行速度",
+                "1": "数值"
+            }
+        ],
+        "name": "鹦鹉"
+    },
+    {
+        "value": "FlyingSpeed",
+        "label": "[可飞行]飞行速度",
+        "hint": " 飞行速度",
+        "number": [
+            {
+                "0": "飞行速度",
+                "1": "数值"
+            }
+        ],
+        "name": "蝙蝠"
+    },
+
+    {
+        "value": "Type",
+        "label": "[青蛙]青蛙颜色",
+        "hint": "temperate(橙)/cold(绿)/warm(白)",
+        "number": [
+            {
+                "0": "青蛙颜色",
+                "1": "详细右侧"
+            }
+        ],
+        "name": "青蛙"
+    },
+
+
+
+
+
+    {
+        "value": "AttackSpeed",
+        "label": "攻击速度",
+        "hint": "默认设为原版实体默认攻击速度(实际上这是无效选项)",
+        "number": [
+            {
+                "0": "攻击速度",
+                "1": "数值"
+            }
+        ]
+    },
+    {
+        "value": "ApplyInvisibility",
+        "label": "出生后是否永久隐身",
+        "hint": "默认设为否,无法在 MC1.12.2 使用",
+        "number": [
+            {
+                "0": "是否隐身",
+                "1": "true/false"
+            }
+        ]
+    },
+    {
+        "value": "AlwaysShowName",
+        "label": "是否永久显示显示名",
+        "hint": "为false时必须瞄准实体才能显示,显示名可以透过方块显示,默认设为否",
+        "number": [
+            {
+                "0": "是否显示",
+                "1": "true/false"
+            }
+        ]
+    },
+    {
+        "value": "Collidable",
+        "label": "是否开启碰撞箱",
+        "hint": "默认设为是,注意若碰撞时俩实体任意一方拥有碰撞箱, 则仍会发生挤压,玩家无法推动无碰撞箱的实体, 但实体可以推动玩家",
+        "number": [
+            {
+                "0": "是否开启",
+                "1": "true/false"
+            }
+        ]
+    },
+    {
+        "value": "Despawn",
+        "label": "实体是否在进入一个未加载区块时消失",
+        "hint": "默认设为是,若定义为`persistent`则效果等同于将选项: `Persistent`定义为`true`",
+        "number": [
+            {
+                "0": "是否消失",
+                "1": "true/false"
+            }
+        ]
+    },
+    {
+        "value": "persistent",
+        "label": "是否不受清怪命令",
+        "hint": "重启服务器清除,若定义为`persistent` 则效果等同于将选项: `Persistent` 定义为 `true`,默认设为是",
+        "number": [
+            {
+                "0": "是否影响",
+                "1": "true/false"
+            }
+        ]
+    },
+    {
+        "value": "FollowRange",
+        "label": "与目标之间的最大距离",
+        "hint": "不会影响原版仇恨索敌范围,影响AI行动器 gotoowner 与 gototarget,默认设为原版实体跟随范围",
+        "number": [
+            {
+                "0": "最大距离",
+                "1": "数值"
+            }
+        ]
+    },
+    {
+        "value": "Glowing",
+        "label": "出生后是否保持发光",
+        "hint": "默认设为否",
+        "number": [
+            {
+                "0": "是否发光",
+                "1": "true/false"
+            }
+        ]
+    },
+    {
+        "value": "Invincible",
+        "label": "是否免疫伤害(无敌)",
+        "hint": "默认设为否,/mm m k可以清除",
+        "number": [
+            {
+                "0": "是否无敌",
+                "1": "true/false"
+            }
+        ]
+    },
+    {
+        "value": "Interactable",
+        "label": "玩家是否无法与该实体互动",
+        "hint": "若为 `true`:,无法交互盔甲架,无法触发 `~onInteract` 触发器,默认设为否",
+        "number": [
+            {
+                "0": "能否互动",
+                "1": "true/false"
+            }
+        ]
+    },
+    {
+        "value": "LockPitch",
+        "label": "是否无法俯仰视",
+        "hint": "前置插件 Protocollib,默认设为否",
+        "number": [
+            {
+                "0": "能否互动",
+                "1": "true/false"
+            }
+        ]
+    },
+    {
+        "value": "KnockbackResistance",
+        "label": "伤害抵消",
+        "hint": "数值在0到1之间,以百分比形式抵消击退效果,默认设为0,0.1 = 10%, 0.5 = 50% 1 = 100%,百分百抵消击退仍可被弓箭的**击飞**附魔击退",
+        "number": [
+            {
+                "0": "抵消数值",
+                "1": "数值"
+            }
+        ]
+    },
+    {
+        "value": "MaxCombatDistance",
+        "label": "不会被离自身多少格方块远的其它实体所伤害",
+        "hint": "不会被离自身多少格方块远的其它实体所伤害",
+        "number": [
+            {
+                "0": "伤害距离",
+                "1": "数值"
+            }
+        ]
+    },
+    {
+        "value": "MovementSpeed",
+        "label": "移动速度",
+        "hint": "不同的实体种类可能有不同的效果,诸多原版实体移动速度为 0.2,幼年实体通常为 0.25 * 支持计算,数值 ADD[加法, 此选项放空则为乘以]加上/乘以的数值",
+        "number": [
+            {
+                "0": "移动速度",
+                "1": "数值"
+            }
+        ]
+    },
+    {
+        "value": "NoAI",
+        "label": "是否拥有AI",
+        "hint": "与AI行动器不同,蝙蝠、凋灵、末影龙等可被此选项所影响,若实体的种类为恼鬼(Vex),若不将选项: `NoGravity` 定义为 `true`,该实体会在生成后不断下落,默认为否",
+        "number": [
+            {
+                "0": "是否拥有",
+                "1": "true/false"
+            }
+        ]
+    },
+    {
+        "value": "NoDamageTicks",
+        "label": "受伤间隔",
+        "hint": "若启用ImmunityTables(受伤间隔),效果则变为,一个实体攻击后多久内无法再次造成伤害,默认设为10刻(1刻=0.05秒)",
+        "number": [
+            {
+                "0": "间隔刻数",
+                "1": "数值"
+            }
+        ]
+    },
+    {
+        "value": "NoGravity",
+        "label": "是否不拥有重力",
+        "hint": "默认设为否,若设为是,则无法被[[技能/列表/Velocity]]所影响,当实体种类为掉落沙时, 若此项为是, 掉落沙就会跟没有一样",
+        "number": [
+            {
+                "0": "是否拥有",
+                "1": "true/false"
+            }
+        ]
+    },
+    {
+        "value": "PassthroughDamage",
+        "label": "转移所受伤害到父系实体身上",
+        "hint": "若存在,默认设为否",
+        "number": [
+            {
+                "0": "是否转移",
+                "1": "true/false"
+            }
+        ]
+    },
+    {
+        "value": "PreventItemPickup",
+        "label": "是否无法拾取物品",
+        "hint": "默认设为是",
+        "number": [
+            {
+                "0": "是否可以",
+                "1": "true/false"
+            }
+        ]
+    },
+    {
+        "value": "PreventLeashing",
+        "label": "是否无法被拴绳栓住",
+        "hint": "默认设为是",
+        "number": [
+            {
+                "0": "是否能被",
+                "1": "true/false"
+            }
+        ]
+    },
+    {
+        "value": "PreventMobKillDrops",
+        "label": "被非玩家实体击杀后是否不掉落物品/经验",
+        "hint": "默认设为否",
+        "number": [
+            {
+                "0": "是否掉落",
+                "1": "true/false"
+            }
+        ]
+    },
+    {
+        "value": "PreventOtherDrops",
+        "label": "是否不掉落原版掉落物",
+        "hint": "默认设为否",
+        "number": [
+            {
+                "0": "是否掉落",
+                "1": "true/false"
+            }
+        ]
+    },
+    {
+        "value": "PreventRandomEquipment",
+        "label": "是否防止生成后随机穿戴",
+        "hint": "默认设为否",
+        "number": [
+            {
+                "0": "是否阻止",
+                "1": "true/false"
+            }
+        ]
+    },
+    {
+        "value": "PreventRenaming",
+        "label": "是否防止被命名牌重命名",
+        "hint": "默认设为是,无法在 MC 1.12.2 使用",
+        "number": [
+            {
+                "0": "是否防止",
+                "1": "true/false"
+            }
+        ]
+    },
+    {
+        "value": "PreventSunburn",
+        "label": "是否防止被阳光灼烧",
+        "hint": "默认设为否,无法在 MC 1.12.2 使用",
+        "number": [
+            {
+                "0": "是否防止",
+                "1": "true/false"
+            }
+        ]
+    },
+    {
+        "value": "RepeatAllSkills",
+        "label": "是否仅能激活1次有血量要求的技能",
+        "hint": "默认设为否",
+        "number": [
+            {
+                "0": "是否限制",
+                "1": "true/false"
+            }
+        ]
+    },
+    {
+        "value": "ShowHealth",
+        "label": "是否以消息的提示显示当前状态",
+        "hint": "默认设为否",
+        "number": [
+            {
+                "0": "是否提示",
+                "1": "true/false"
+            }
+        ]
+    },
+    {
+        "value": "Silent",
+        "label": "是否不发出原版音效",
+        "hint": "默认设为否",
+        "number": [
+            {
+                "0": "是否发出",
+                "1": "true/false"
+            }
+        ]
+    }
+]

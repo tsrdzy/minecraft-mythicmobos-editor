@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3893127 */
+  src: url('iconfont.woff2?t=1682699877931') format('woff2'),
+       url('iconfont.woff?t=1682699877931') format('woff'),
+       url('iconfont.ttf?t=1682699877931') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ababd:before {
+  content: "\e607";
+}
+
+.icon-minecraft_creeper:before {
+  content: "\eca6";
+}
+
+.icon-minecraft_logo:before {
+  content: "\ef4d";
+}
+
+.icon-minecraft_sword:before {
+  content: "\f0a8";
+}
+
+.icon-tubiaozhizuomoban:before {
+  content: "\e601";
+}
+
+.icon-wenhao-xianxingyuankuang:before {
+  content: "\e8e9";
+}
+
+.icon-logo1:before {
+  content: "\e604";
+}
+
+.icon-xiangyoujiantou:before {
+  content: "\e65f";
+}
+
+.icon-xiangzuojiantou:before {
+  content: "\e660";
+}
+
+.icon-weixin:before {
+  content: "\e61c";
+}
+
+.icon-weibo:before {
+  content: "\e63d";
+}
+
+.icon-youxiang:before {
+  content: "\e606";
+}
+
+.icon-QQ:before {
+  content: "\e882";
+}
+
+.icon-shouyefill:before {
+  content: "\e750";
+}
+
+.icon-gongnengguanli:before {
+  content: "\e605";
+}
+
+.icon-jiaruwomen:before {
+  content: "\e612";
+}
+
+.icon-guanyu:before {
+  content: "\e622";
+}
+
+.icon-xinwendongtai:before {
+  content: "\e99e";
+}
+

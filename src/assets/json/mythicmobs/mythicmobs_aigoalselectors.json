@@ -1,0 +1,406 @@
+[
+    {
+        "value": "clear",
+        "label": "清除默认/原版AI",
+        "property": []
+    },
+    {
+        "value": "breakdoors",
+        "label": "破坏路线上的门",
+        "property": []
+    },
+    {
+        "value": "eatgrass",
+        "label": "啃草",
+        "property": []
+    },
+    {
+        "value": "float",
+        "label": "漂浮在水上",
+        "property": []
+    },
+    {
+        "value": "lookatplayers",
+        "label": "看向玩家",
+        "property": []
+    },
+    {
+        "value": "opendoors",
+        "label": "开启路径上的门",
+        "property": []
+    },
+    {
+        "value": "closedoors",
+        "label": "关闭路径上的门",
+        "property": []
+    },
+    {
+        "value": "randomlookaround",
+        "label": "看向周围",
+        "property": []
+    },
+    {
+        "value": "gotospawnlocation",
+        "label": "走向实体的出生点",
+        "property": [
+            {
+                "id": "最大距离",
+                "name": "maxrange",
+                "title": "半径"
+            },
+            {
+                "id": "点距离",
+                "name": "minrange",
+                "title": "半径"
+            },
+            {
+                "id": "移动速度",
+                "name": "speed",
+                "title": "数值"
+            },
+            {
+                "id": "无视目标",
+                "name": "droptarget",
+                "title": "true/false"
+            }
+        ]
+    },
+    {
+        "value": "doNothing",
+        "label": "条件活动",
+        "property": []
+    },
+    {
+        "value": "distance",
+        "label": "远离距离",
+        "property": [
+            {
+                "id": "最远距离",
+                "name": "",
+                "title": "数值"
+            }
+        ]
+    },
+    {
+        "value": "speed",
+        "label": "逃离速度",
+        "property": [
+            {
+                "id": "逃离速度",
+                "name": "",
+                "title": "数值"
+            }
+        ]
+    },
+    {
+        "value": "safespeed",
+        "label": "即将达到远离距离时的逃离速度",
+        "property": [
+            {
+                "id": "逃离速度",
+                "name": "",
+                "title": "数值"
+            }
+        ]
+    },
+    {
+        "value": "avoidcreepers",
+        "label": "躲避爬行者",
+        "property": []
+    },
+    {
+        "value": "avoidskeletons",
+        "label": "躲避骷髅",
+        "property": []
+    },
+    {
+        "value": "avoidzombies",
+        "label": "躲避僵尸",
+        "property": []
+    },
+    {
+        "value": "fleesun",
+        "label": "躲避日光",
+        "property": []
+    },
+    {
+        "value": "meleeattack",
+        "label": "近距离攻击方式",
+        "property": []
+    },
+    {
+        "value": "movetowardstarget",
+        "label": "走向目标",
+        "property": []
+    },
+    {
+        "value": "movetowater",
+        "label": "走向水源",
+        "property": []
+    },
+    {
+        "value": "movetolava",
+        "label": "走向熔岩",
+        "property": []
+    },
+    {
+        "value": "moveblock",
+        "label": "走向特定方块",
+        "property": [
+            {
+                "id": "方块id",
+                "name": "material",
+                "title": "方块id"
+            },
+            {
+                "id": "水平检索",
+                "name": "radius",
+                "title": "半径"
+            },
+            {
+                "id": "垂直检索",
+                "name": "radiusy",
+                "title": "半径"
+            },
+            {
+                "id": "移动速度",
+                "name": "speed",
+                "title": "数值"
+            }
+        ]
+    },
+    {
+        "value": "randomstroll",
+        "label": "随机走动",
+        "property": []
+    },
+    {
+        "value": "restrictsun",
+        "label": "躲避高亮度地区",
+        "property": []
+    },
+    {
+        "value": "fleeplayers",
+        "label": "躲避玩家",
+        "property": []
+    },
+    {
+        "value": "fleegolems",
+        "label": "躲避铁傀儡",
+        "property": []
+    },
+    {
+        "value": "fleevillagers",
+        "label": "躲避村民",
+        "property": []
+    },
+    {
+        "value": "fleefaction",
+        "label": "躲避处在指定阵营内的实体(可作用于玩家)",
+        "property": [
+            {
+                "id": "阵营名称",
+                "name": "f",
+                "title": "阵营名称"
+            }
+        ]
+    },
+    {
+        "value": "fleeConditional",
+        "label": "躲避符合条件的实体",
+        "property": [
+            {
+                "id": "实体类型",
+                "name": "conditions",
+                "title": "实体类型"
+            }
+        ]
+    },
+    {
+        "value": "spiderattack",
+        "label": "跳跃攻击方式(如狼、蜘蛛)",
+        "property": []
+    },
+    {
+        "value": "leapattarget",
+        "label": "朝目标冲刺",
+        "property": []
+    },
+    {
+        "value": "moveindoors",
+        "label": "室内活动",
+        "property": []
+    },
+    {
+        "value": "movethroughvillage",
+        "label": "村庄内活动",
+        "property": []
+    },
+    {
+        "value": "movetowardsrestriction",
+        "label": "movetowardsrestriction",
+        "property": []
+    },
+    {
+        "value": "patrol",
+        "label": "依次走到多个坐标点路程需≤实体跟随距离)",
+        "property": [
+            {
+                "id": "坐标位置",
+                "name": "",
+                "title": "x1,y1,z1;x2,y2,z2(使用;号隔开)"
+            }
+        ]
+    },
+    {
+        "value": "gotolocation",
+        "label": "走到指定坐标点(路程需≤实体跟随距离)",
+        "property": [
+            {
+                "id": "坐标位置",
+                "name": "",
+                "title": "x1,y1,z1"
+            }
+        ]
+    },
+    {
+        "value": "gotoowner",
+        "label": "走向主人(路程≤实体跟随距离)",
+        "property": [
+            {
+                "id": "跟随距离",
+                "name": "followrange",
+                "title": "数值"
+            },
+            {
+                "id": "保持距离",
+                "name": "minrange",
+                "title": "数值"
+            },
+            {
+                "id": "移动速度",
+                "name": "speed",
+                "title": "数值"
+            },
+            {
+                "id": "无视目标",
+                "name": "droptarget",
+                "title": "true/false"
+            }
+        ]
+    },
+    {
+        "value": "gotoparent",
+        "label": "走向父系实体(路程≤实体跟随距离)",
+        "property": [
+            {
+                "id": "跟随距离",
+                "name": "followrange",
+                "title": "数值"
+            },
+            {
+                "id": "保持距离",
+                "name": "minrange",
+                "title": "数值"
+            },
+            {
+                "id": "移动速度",
+                "name": "speed",
+                "title": "数值"
+            },
+            {
+                "id": "无视目标",
+                "name": "droptarget",
+                "title": "true/false"
+            }
+        ]
+    },
+    {
+        "value": "gotowater",
+        "label": "寻找并进入水源",
+        "property": []
+    },
+    {
+        "value": "panicWhenOnFire",
+        "label": "着火时寻找水源熄火",
+        "property": []
+    },
+    {
+        "value": "randomFly",
+        "label": "随机飞行",
+        "property": []
+    },
+    {
+        "value": "breed",
+        "label": "走向繁殖对象",
+        "property": []
+    },
+    {
+        "value": "arrowattack",
+        "label": "无需拉弓射箭(实体必须可拉弓)",
+        "property": [
+            {
+                "id": "移动速度",
+                "name": "speed",
+                "title": "数值"
+            },
+            {
+                "id": "最快射速",
+                "name": "attackspeedmax",
+                "title": "数值"
+            },
+            {
+                "id": "最慢射速",
+                "name": "attackspeedmin",
+                "title": "数值"
+            },
+            {
+                "id": "寻敌半径",
+                "name": "attackradius",
+                "title": "数值"
+            }
+        ]
+    },
+    {
+        "value": "skeletonbowattack",
+        "label": "拉弓射箭(实体必须可拉弓)",
+        "property": [
+            {
+                "id": "移动速度",
+                "name": "speed",
+                "title": "数值"
+            },
+            {
+                "id": "最慢射速",
+                "name": "attackspeedmin",
+                "title": "数值"
+            },
+            {
+                "id": "寻敌半径",
+                "name": "attackradius",
+                "title": "数值"
+            }
+        ]
+    },
+    {
+        "value": "crossbowAttack",
+        "label": "拉弩射箭",
+        "property": [
+            {
+                "id": "移动速度",
+                "name": "speed",
+                "title": "数值"
+            },
+            {
+                "id": "寻敌半径",
+                "name": "attackradius",
+                "title": "数值"
+            }
+        ]
+    },
+    {
+        "value": "creeperswell",
+        "label": "爬行者膨胀后爆炸",
+        "property": []
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "value": "skillapi-exp",
+        "label": "SkillAPI经验"
+    },
+    {
+        "value": "oraxen",
+        "label": "Oraxen物品"
+    },
+    {
+        "value": "mcmmo-exp",
+        "label": "McMMO经验"
+    },
+    {
+        "value": "exp",
+        "label": "原版经验"
+    },
+    {
+        "value": "money",
+        "label": "给予金钱(需经济插件)"
+    },
+    {
+        "value": "mythicdrop",
+        "label": "Mythic物品"
+    },
+    {
+        "value": "phatloot",
+        "label": "PhatLoot物品"
+    },
+    {
+        "value": "cmd",
+        "label": "在控制台执行命令"
+    },
+    {
+        "value": "mmoitems",
+        "label": "MMOItems物品"
+    },
+    {
+        "value": "mythicmob",
+        "label": "在当前位置生成指定实体(支持Mythic实体)"
+    },
+    {
+        "value": "ItemsAdder",
+        "label": "ItemsAdder物品"
+    },
+    {
+        "value": "掉落表",
+        "label": "掉落表"
+    }
+]

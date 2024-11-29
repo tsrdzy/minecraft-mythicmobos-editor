@@ -1,0 +1,122 @@
+[
+    {
+        "value": "BLOCK_EXPLOSION",
+        "label": "方块爆炸所造成的伤害"
+    },
+    {
+        "value": "CONTACT",
+        "label": "接触仙人掌之类的方块造成的伤害"
+    },
+    {
+        "value": "CRAMMING",
+        "label": "实体挤压所造成的伤害"
+    },
+    {
+        "value": "CUSTOM",
+        "label": "通常用于非原版伤害来源(如MMOItems的ICE)"
+    },
+    {
+        "value": "DROWNING",
+        "label": "水下氧气栏为空时每05秒受到的伤害"
+    },
+    {
+        "value": "DRAGON_BREATH",
+        "label": "处在龙息云内每秒造成的伤害"
+    },
+    {
+        "value": "DRYOUT",
+        "label": "脱水单次伤害"
+    },
+    {
+        "value": "ENTITY_EXPLOSION",
+        "label": "实体爆炸所造成的伤害(如爬行者 凋灵头颅)"
+    },
+    {
+        "value": "ENTITY_ATTACK",
+        "label": "其它实体近距离攻击所造成的伤害(不包括武器攻击力)"
+    },
+    {
+        "value": "ENTITY_SWEEP_ATTACK",
+        "label": "玩家横扫攻击所造成的伤害(不包括武器攻击力)"
+    },
+    {
+        "value": "FIRE_TICK",
+        "label": "火焰燃烧造成的伤害"
+    },
+    {
+        "value": "FIRE",
+        "label": "直接接触火源所造成的伤害"
+    },
+    {
+        "value": "FALL",
+        "label": "掉落时重力大于下落3格方块所累积的重力"
+    },
+    {
+        "value": "FALLING_BLOCK",
+        "label": "掉落沙砸中实体所造成的伤害"
+    },
+    {
+        "value": "FLY_INTO_WALL",
+        "label": "鞘翅撞墙伤害"
+    },
+    {
+        "value": "FREEZE",
+        "label": "冻伤单次伤害"
+    },
+    {
+        "value": "HOT_FLOOR",
+        "label": "岩浆块灼烧单次伤害"
+    },
+    {
+        "value": "LAVA",
+        "label": "进入熔岩所受到的伤害"
+    },
+    {
+        "value": "LIGHTNING",
+        "label": "雷击伤害"
+    },
+    {
+        "value": "MAGIC",
+        "label": "瞬间伤害等状态效果所造成的伤害"
+    },
+    {
+        "value": "MELTING",
+        "label": "雪傀儡融化单次伤害"
+    },
+    {
+        "value": "POISON",
+        "label": "状态效果: 中毒所造成的伤害"
+    },
+    {
+        "value": "PROJECTILE",
+        "label": "抛射物所造成的伤害(如箭)"
+    },
+    {
+        "value": "SONIC_BOOM",
+        "label": "循声守卫声波攻击伤害"
+    },
+    {
+        "value": "SUICIDE",
+        "label": "/kill命令所造成的伤害"
+    },
+    {
+        "value": "STARVATION",
+        "label": "饥饿栏为空时每秒受到的伤害"
+    },
+    {
+        "value": "SUFFOCATION",
+        "label": "处在方块内(窒息)所造成的伤害"
+    },
+    {
+        "value": "THORNS",
+        "label": "附魔: 荆棘所造成的伤害"
+    },
+    {
+        "value": "WITHER",
+        "label": "状态效果: 凋零所造成的伤害"
+    },
+    {
+        "value": "VOID",
+        "label": "虚空"
+    }
+]

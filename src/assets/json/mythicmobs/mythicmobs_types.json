@@ -1,0 +1,346 @@
+[
+  {
+    "value": "ALLAY",
+    "label": "悦灵"
+  },
+  {
+    "value": "ARMOR_STAND",
+    "label": "盔甲架"
+  },
+  {
+    "value": "AXOLOTL",
+    "label": "美西螈"
+  },
+  {
+    "value": "BABY_DROWNED",
+    "label": "幼年溺尸"
+  },
+  {
+    "value": "BABY_PIG_ZOMBIE",
+    "label": "幼年僵尸猪人"
+  },
+  {
+    "value": "BABY_PIG_ZOMBIE_VILLAGER",
+    "label": "幼年僵尸猪人村民"
+  },
+  {
+    "value": "BABY_ZOGLIN",
+    "label": "幼年僵尸疣猪兽"
+  },
+  {
+    "value": "BABY_ZOMBIE",
+    "label": "幼年僵尸"
+  },
+  {
+    "value": "BABY_ZOMBIE_VILLAGER",
+    "label": "幼年僵尸村民"
+  },
+  {
+    "value": "BAT",
+    "label": "蝙蝠"
+  },
+  {
+    "value": "BEE",
+    "label": "蜜蜂"
+  },
+  {
+    "value": "BLAZE",
+    "label": "烈焰人"
+  },
+  {
+    "value": "CAT",
+    "label": "猫"
+  },
+  {
+    "value": "CAVE_SPIDER",
+    "label": "洞穴蜘蛛"
+  },
+  {
+    "value": "CHICKEN",
+    "label": "鸡"
+  },
+  {
+    "value": "COD",
+    "label": "鳕鱼"
+  },
+  {
+    "value": "COW",
+    "label": "牛"
+  },
+  {
+    "value": "CREEPER",
+    "label": "苦力怕"
+  },
+  {
+    "value": "DOLPHIN",
+    "label": "海豚"
+  },
+  {
+    "value": "DONKEY",
+    "label": "驴"
+  },
+  {
+    "value": "DROWNED",
+    "label": "溺尸"
+  },
+  {
+    "value": "ELDER_GUARDIAN",
+    "label": "远古守卫者"
+  },
+  {
+    "value": "ENDERMAN",
+    "label": "末影人"
+  },
+  {
+    "value": "ENDERMITE",
+    "label": "末影螨"
+  },
+  {
+    "value": "ENDER_CRYSTAL",
+    "label": "末影水晶"
+  },
+  {
+    "value": "ENDER_DRAGON",
+    "label": "末影龙"
+  },
+  {
+    "value": "EVOKER",
+    "label": "唤魔者"
+  },
+  {
+    "value": "Evocation_Illager",
+    "label": "唤魔者(MC1.12)"
+  },
+  {
+    "value": "EXPERIENCE_ORB",
+    "label": "经验球"
+  },
+  {
+    "value": "FROG",
+    "label": "青蛙"
+  },
+  {
+    "value": "GHAST",
+    "label": "恶魂"
+  },
+  {
+    "value": "GIANT",
+    "label": "巨人"
+  },
+  {
+    "value": "GLOW_SQUID",
+    "label": "发光鱿鱼"
+  },
+  {
+    "value": "GOAT",
+    "label": "山羊"
+  },
+  {
+    "value": "GUARDIAN",
+    "label": "守卫者"
+  },
+  {
+    "value": "HOGLIN",
+    "label": "疣猪兽"
+  },
+  {
+    "value": "HORSE",
+    "label": "马"
+  },
+  {
+    "value": "HUSK",
+    "label": "尸壳"
+  },
+  {
+    "value": "ILLUSIONER",
+    "label": "幻术师"
+  },
+  {
+    "value": "IRON_GOLEM",
+    "label": "铁傀儡"
+  },
+  {
+    "value": "LLAMA",
+    "label": "羊驼"
+  },
+  {
+    "value": "MAGMA_CUBE",
+    "label": "岩浆怪"
+  },
+  {
+    "value": "MARKER",
+    "label": "低耗能实体"
+  },
+  {
+    "value": "MULE",
+    "label": "骡"
+  },
+  {
+    "value": "MUSHROOM_COW",
+    "label": "哞菇"
+  },
+  {
+    "value": "OCELOT",
+    "label": "豹猫"
+  },
+  {
+    "value": "PARROT",
+    "label": "鹦鹉"
+  },
+  {
+    "value": "PHANTOM",
+    "label": "幻翼"
+  },
+  {
+    "value": "PIG",
+    "label": "猪"
+  },
+  {
+    "value": "PIGLIN",
+    "label": "猪灵"
+  },
+  {
+    "value": "PIG_ZOMBIE",
+    "label": "僵尸猪人"
+  },
+  {
+    "value": "PILLAGER",
+    "label": "掠夺者"
+  },
+  {
+    "value": "POLAR_BEAR",
+    "label": "北极熊"
+  },
+  {
+    "value": "PUFFERFISH",
+    "label": "河豚"
+  },
+  {
+    "value": "RABBIT",
+    "label": "兔"
+  },
+  {
+    "value": "RAVAGER",
+    "label": "劫掠兽"
+  },
+  {
+    "value": "SALMON",
+    "label": "鲑鱼"
+  },
+  {
+    "value": "SHEEP",
+    "label": "羊"
+  },
+  {
+    "value": "SHULKER",
+    "label": "潜影贝"
+  },
+  {
+    "value": "SILVERFISH",
+    "label": "蠹虫"
+  },
+  {
+    "value": "SKELETON",
+    "label": "骷髅"
+  },
+  {
+    "value": "SKELETON_HORSE",
+    "label": "骷髅马"
+  },
+  {
+    "value": "SLIME",
+    "label": "史莱姆"
+  },
+  {
+    "value": "SNOWMAN",
+    "label": "雪傀儡"
+  },
+  {
+    "value": "SPIDER",
+    "label": "蜘蛛"
+  },
+  {
+    "value": "SQUID",
+    "label": "鱿鱼"
+  },
+  {
+    "value": "STRAY",
+    "label": "流浪者"
+  },
+  {
+    "value": "STRIDER",
+    "label": "炽足兽"
+  },
+  {
+    "value": "TADPOLE",
+    "label": "蝌蚪"
+  },
+  {
+    "value": "TNT",
+    "label": "炸药"
+  },
+  {
+    "value": "TRADER_LLAMA",
+    "label": "行商羊驼"
+  },
+  {
+    "value": "TROPICAL_FISH",
+    "label": "热带鱼"
+  },
+  {
+    "value": "TURTLE",
+    "label": "海龟"
+  },
+  {
+    "value": "VEX",
+    "label": "恼鬼"
+  },
+  {
+    "value": "VILLAGER",
+    "label": "村民"
+  },
+  {
+    "value": "VINDICATOR",
+    "label": "卫道士"
+  },
+  {
+    "value": "WANDERING_TRADER",
+    "label": "流浪商人"
+  },
+  {
+    "value": "WARDEN",
+    "label": "监守者"
+  },
+  {
+    "value": "WITCH",
+    "label": "女巫"
+  },
+  {
+    "value": "WITHER",
+    "label": "凋灵"
+  },
+  {
+    "value": "WITHER_SKELETON",
+    "label": "凋零骷髅"
+  },
+  {
+    "value": "WOLF",
+    "label": "狼"
+  },
+  {
+    "value": "ZOMBIE",
+    "label": "僵尸"
+  },
+  {
+    "value": "ZOMBIE_HORSE",
+    "label": "僵尸马"
+  },
+  {
+    "value": "ZOMBIE_VILLAGER",
+    "label": "僵尸村民"
+  },
+  {
+    "value": "ZOMBIFIED_PIGLIN",
+    "label": "僵尸猪灵"
+  }
+]

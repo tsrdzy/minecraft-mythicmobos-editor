@@ -1,0 +1,84 @@
+[
+    {
+        "value": "clear",
+        "label": "清除默认/原版AI",
+        "property": []
+    },
+    {
+        "value": "attacker",
+        "label": "选取对自身造成伤害(未令实体变红不算造成伤害)的实体",
+        "property": []
+    },
+    {
+        "value": "monsters",
+        "label": "选取原版实体种类为怪物的实体(包括原版)",
+        "property": []
+    },
+    {
+        "value": "players",
+        "label": "选取玩家",
+        "property": []
+    },
+    {
+        "value": "villagers",
+        "label": "选取原版实体种类为村民的实体(包括原版)",
+        "property": []
+    },
+    {
+        "value": "golems",
+        "label": "选取原版实体种类为傀儡(包括雪傀儡)的实体(包括原版)",
+        "property": []
+    },
+    {
+        "value": "nearestConditionalTarget",
+        "label": "选取离自身最近的符合条件的实体",
+        "property": []
+    },
+    {
+        "value": "OtherFaction",
+        "label": "选取其它阵营内的所有实体为目标",
+        "property": []
+    },
+    {
+        "value": "OtherFactionMonsters",
+        "label": "选取其它阵营内实体种类为怪物的实体为目标",
+        "property": []
+    },
+    {
+        "value": "OtherFactionVillagers",
+        "label": "选取其它阵营内实体种类为村民的实体为目标",
+        "property": []
+    },
+    {
+        "value": "SpecificFaction",
+        "label": "选取指定阵营内的所有实体为目标",
+        "property": [
+            {
+                "id": "阵营名称",
+                "name": "",
+                "title": "阵营名称"
+            }
+        ]
+    },
+    {
+        "value": "SpecificFactionMonsters",
+        "label": "选取指定阵营内实体种类为怪物的实体为目标",
+        "property": [
+            {
+                "id": "阵营名称",
+                "name": "",
+                "title": "阵营名称"
+            }
+        ]
+    },
+    {
+        "value": "ownerattacker",
+        "label": "攻击主人的实体",
+        "property": []
+    },
+    {
+        "value": "ownertarget",
+        "label": "主人的目标",
+        "property": []
+    }
+]

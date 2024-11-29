@@ -1,0 +1,135 @@
+{
+  "id": "3893127",
+  "name": "TsrCraft",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "官网",
+  "glyphs": [
+    {
+      "icon_id": "2352754",
+      "name": "forge",
+      "font_class": "ababd",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "18581146",
+      "name": "minecraft_creeper",
+      "font_class": "minecraft_creeper",
+      "unicode": "eca6",
+      "unicode_decimal": 60582
+    },
+    {
+      "icon_id": "18583231",
+      "name": "minecraft_logo",
+      "font_class": "minecraft_logo",
+      "unicode": "ef4d",
+      "unicode_decimal": 61261
+    },
+    {
+      "icon_id": "18584015",
+      "name": "minecraft_sword",
+      "font_class": "minecraft_sword",
+      "unicode": "f0a8",
+      "unicode_decimal": 61608
+    },
+    {
+      "icon_id": "34949502",
+      "name": "Fabric",
+      "font_class": "tubiaozhizuomoban",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "1727527",
+      "name": "306问号-线性圆框",
+      "font_class": "wenhao-xianxingyuankuang",
+      "unicode": "e8e9",
+      "unicode_decimal": 59625
+    },
+    {
+      "icon_id": "34961248",
+      "name": "logo1",
+      "font_class": "logo1",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "630094",
+      "name": "向右箭头",
+      "font_class": "xiangyoujiantou",
+      "unicode": "e65f",
+      "unicode_decimal": 58975
+    },
+    {
+      "icon_id": "630095",
+      "name": "向左箭头",
+      "font_class": "xiangzuojiantou",
+      "unicode": "e660",
+      "unicode_decimal": 58976
+    },
+    {
+      "icon_id": "815499",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "978353",
+      "name": "新浪微博",
+      "font_class": "weibo",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "1613593",
+      "name": "邮箱",
+      "font_class": "youxiang",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "4936984",
+      "name": "QQ",
+      "font_class": "QQ",
+      "unicode": "e882",
+      "unicode_decimal": 59522
+    },
+    {
+      "icon_id": "577363",
+      "name": "首页-fill",
+      "font_class": "shouyefill",
+      "unicode": "e750",
+      "unicode_decimal": 59216
+    },
+    {
+      "icon_id": "1391280",
+      "name": "功能管理",
+      "font_class": "gongnengguanli",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "9851599",
+      "name": "加入我们",
+      "font_class": "jiaruwomen",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "11641882",
+      "name": "关于",
+      "font_class": "guanyu",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "19585506",
+      "name": "新闻动态",
+      "font_class": "xinwendongtai",
+      "unicode": "e99e",
+      "unicode_decimal": 59806
+    }
+  ]
+}

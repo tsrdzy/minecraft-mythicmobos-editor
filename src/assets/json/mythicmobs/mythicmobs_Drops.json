@@ -1,0 +1,104 @@
+[
+    {
+        "value": "skillapi-exp",
+        "label": "SkillAPI经验",
+        "config": [
+            "掉落数量",
+            "掉落几率"
+        ]
+    },
+    {
+        "value": "oraxen",
+        "label": "Oraxen物品",
+        "config": [
+            "物品名称",
+            "掉落数量",
+            "掉落几率"
+        ]
+    },
+    {
+        "value": "mcmmo-exp",
+        "label": "McMMO经验",
+        "config": [
+            "掉落数量",
+            "掉落几率"
+        ]
+    },
+    {
+        "value": "exp",
+        "label": "原版经验",
+        "config": [
+            "掉落数量",
+            "掉落几率"
+        ]
+    },
+    {
+        "value": "money",
+        "label": "给予金钱(需经济插件)",
+        "config": [
+            "掉落数量",
+            "掉落几率"
+        ]
+    },
+    {
+        "value": "mythicdrop",
+        "label": "Mythic物品",
+        "config": [
+            "物品名称",
+            "掉落数量",
+            "掉落几率"
+        ]
+    },
+    {
+        "value": "phatloot",
+        "label": "PhatLoot物品",
+        "config": [
+            "物品名称",
+            "掉落数量",
+            "掉落几率"
+        ]
+    },
+    {
+        "value": "cmd",
+        "label": "在控制台执行命令"
+        ,
+        "config": [
+            "后台指令"
+        ]
+    },
+    {
+        "value": "mmoitems",
+        "label": "MMOItems物品",
+        "config": [
+            "物品类型",
+            "物品ID",
+            "掉落数量",
+            "掉落几率"
+        ]
+    },
+    {
+        "value": "mythicmob",
+        "label": "在当前位置生成指定实体(支持Mythic实体)",
+        "config": [
+            "实体标签",
+            "生成数量",
+            "生成几率"
+        ]
+    },
+    {
+        "value": "ItemsAdder",
+        "label": "ItemsAdder物品",
+        "config": [
+            "命名空间",
+            "内部名称"
+        ]
+    },
+    {
+        "value": "掉落表",
+        "label": "掉落表",
+        "config": [
+            "掉落表名"
+
+        ]
+    }
+]

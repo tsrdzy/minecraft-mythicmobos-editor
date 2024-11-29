@@ -1,0 +1,922 @@
+[
+    {
+        "value": "activatespawner",
+        "label": "激活指定生成点(组)",
+        "versions": "2",
+        "hint": "激活指定名称的生成点(组)",
+        "options": [
+            {
+                "0": "组名称",
+                "1": "spawner",
+                "2": "无",
+                "3": false
+            }
+        ]
+    },
+    {
+        "value": "arrowvolley",
+        "label": "在技能目标上方瞬间生成多发箭矢",
+        "versions": "早于2.0",
+        "hint": "瞬间向技能目标发射多发箭矢&&&箭矢本身不可伤害施法者(caster)与主人(onwer)&&&箭矢所附带的燃烧可伤害施法者(caster)与主人(onwer)",
+        "options": [
+            {
+                "0": "箭矢数量",
+                "1": "amount",
+                "2": "20",
+                "3": false
+            },
+            {
+                "0": "扩散程度",
+                "1": "spread",
+                "2": "45",
+                "3": false
+            },
+            {
+                "0": "飞行速度",
+                "1": "velocity",
+                "2": "20",
+                "3": false
+            },
+            {
+                "0": "燃烧时间",
+                "1": "fireticks",
+                "2": "0",
+                "3": false
+            },
+            {
+                "0": "消失时间",
+                "1": "removedelay",
+                "2": "200",
+                "3": false
+            }
+        ]
+    },
+    {
+        "value": "auraremov",
+        "label": "停止技能目标身上的光环",
+        "versions": "4.11",
+        "hint": "移除指定光环的指定层数&&&层数被移除为0时光环停止&&&这意味着将激活被移除光环的onendskill",
+        "options": [
+            {
+                "0": "光环名称",
+                "1": "aura",
+                "2": "无",
+                "3": false
+            },
+            {
+                "0": "移除层数",
+                "1": "stacks",
+                "2": "最大层数",
+                "3": false
+            }
+        ]
+    },
+    {
+        "value": "barcreate",
+        "label": "为技能目标创建boss血条",
+        "versions": "4.8",
+        "hint": "为技能目标创建Boss血条&&&目标可拥有多条Boss血条（血条内部ID可一致）&&&施法者消失（非死亡）后, Boss血条不会消失&&&施法者死亡后, 内部ID一致的Boss血条,只有最近一次创建的会消失&&&解决方案: 重启服务器",
+        "options": [
+            {
+                "0": "血条ID",
+                "1": "name",
+                "2": "infobar",
+                "3": true
+            },
+            {
+                "0": "标题文本",
+                "1": "display",
+                "2": "<skill.var.aura-name>",
+                "3": false
+            },
+            {
+                "0": "血条比值",
+                "1": "value",
+                "2": "1.0",
+                "3": false
+            },
+            {
+                "0": "血条颜色",
+                "1": "color",
+                "2": "RED",
+                "3": false
+            },
+            {
+                "0": "血条样式",
+                "1": "style",
+                "2": "SOLID",
+                "3": false
+            }
+        ]
+    },
+    {
+        "value": "barse",
+        "label": "为技能目标修改boss血条",
+        "versions": "4.8",
+        "hint": "为技能目标修改Boss血条&&&技能目标已拥有多条血条内部ID相同的Boss血条时&&&只有最近一次创建的会被修改",
+        "options": [
+            {
+                "0": "血条ID",
+                "1": "name",
+                "2": "infobar",
+                "3": true
+            },
+            {
+                "0": "标题文本",
+                "1": "display",
+                "2": "<skill.var.aura-name>",
+                "3": false
+            },
+            {
+                "0": "血条比值",
+                "1": "value",
+                "2": "1.0",
+                "3": false
+            },
+            {
+                "0": "血条颜色",
+                "1": "color",
+                "2": "RED",
+                "3": false
+            },
+            {
+                "0": "血条样式",
+                "1": "style",
+                "2": "SOLID",
+                "3": false
+            }
+        ]
+    },
+    {
+        "value": "barremov",
+        "label": "为技能目标移除boss血条",
+        "versions": "4.8",
+        "hint": "为技能目标移除Boss血条&&&多条Boss血条内部ID一致时,只移除最近一次创建的Boss血条",
+        "options": [
+            {
+                "0": "血条ID",
+                "1": "name",
+                "2": "infobar",
+                "3": true
+            }
+        ]
+    },
+    {
+        "value": "blockdestabiliz",
+        "label": "将技能目标方块转换为掉落沙",
+        "versions": "5.0.5",
+        "hint": "将技能目标方块转换为掉落沙",
+        "options": []
+    },
+    {
+        "value": "bonemea",
+        "label": "向技能目标方块使用骨粉催熟",
+        "versions": "5.0.3",
+        "hint": "对技能目标方块使用骨粉催熟",
+        "options": []
+    },
+    {
+        "value": "breakbloc",
+        "label": "破坏所选取的所有位置的方块&&&无效技能",
+        "versions": "4.6",
+        "hint": "破坏指定位置的方块",
+        "options": [
+            {
+                "0": "是否掉落",
+                "1": "doDrops",
+                "2": "true",
+                "3": false
+            }, {
+                "0": "播放粒子",
+                "1": "doEffect",
+                "2": "true",
+                "3": false
+            }, {
+                "0": "使用手持",
+                "1": "useTool",
+                "2": "true",
+                "3": false
+            }
+        ]
+    },
+    {
+        "value": "breakblockandgiveite",
+        "label": "破坏所选取的所有位置的方块后给予额外物品",
+        "versions": "未知"
+    },
+    {
+        "value": "closeinventor",
+        "label": "为技能目标(玩家)关闭背包",
+        "versions": "4.8"
+    },
+    {
+        "value": "comman",
+        "label": "向控制台执行命令",
+        "versions": "2"
+    },
+    {
+        "value": "consum",
+        "label": "对技能目标造成伤害后恢复自身生命",
+        "versions": "2"
+    },
+    {
+        "value": "consumeslo",
+        "label": "清除技能目标(玩家)指定槽位上指定数量的物品",
+        "versions": "4.14.0"
+    },
+    {
+        "value": "clearthrea",
+        "label": "清除所有对技能目标拥有威胁度的实体",
+        "versions": "4.12"
+    },
+    {
+        "value": "cqui",
+        "label": "穿戴物品(仅可为mythic物品)",
+        "versions": "未知"
+    },
+    {
+        "value": "currencygiv",
+        "label": "给予技能目标金钱",
+        "versions": "4.1"
+    },
+    {
+        "value": "currencytak",
+        "label": "夺取技能金钱",
+        "versions": "4.1"
+    },
+    {
+        "value": "disengag",
+        "label": "向技能目标反向冲刺",
+        "versions": "4.9"
+    },
+    {
+        "value": "disguis",
+        "label": "令自身伪装",
+        "versions": "2"
+    },
+    {
+        "value": "disguiseol",
+        "label": "令自身伪装",
+        "versions": "4.12"
+    },
+    {
+        "value": "disguisemodif",
+        "label": "修改技能目标的伪装",
+        "versions": "4.9"
+    },
+    {
+        "value": "disguisemodifyne",
+        "label": "修改技能目标的伪装",
+        "versions": "4.9"
+    },
+    {
+        "value": "disguiseasbloc",
+        "label": "令技能目标伪装",
+        "versions": "未知"
+    },
+    {
+        "value": "disguisetarge",
+        "label": "令技能目标伪装",
+        "versions": "4.9"
+    },
+    {
+        "value": "disguiseremov",
+        "label": "取消技能目标的伪装",
+        "versions": "4.9"
+    },
+    {
+        "value": "dismoun",
+        "label": "取消骑乘",
+        "versions": "2"
+    },
+    {
+        "value": "damag",
+        "label": "对技能目标造成伤害(具体数值)",
+        "versions": "2"
+    },
+    {
+        "value": "basedamag",
+        "label": "对技能目标造成伤害(等值于武器攻击力百分比)",
+        "versions": "2"
+    },
+    {
+        "value": "damagepercen",
+        "label": "对技能目标造成伤害(技能目标最大生命百分比)",
+        "versions": "2"
+    },
+    {
+        "value": "decapitat",
+        "label": "掉落技能目标(玩家)头颅",
+        "versions": "4.1"
+    },
+    {
+        "value": "dopplegange",
+        "label": "令自身伪装成技能目标(玩家)",
+        "versions": "2.4"
+    },
+    {
+        "value": "dropite",
+        "label": "在所选取的所有位置生成掉落物",
+        "versions": "4.1"
+    },
+    {
+        "value": "ejectpassenge",
+        "label": "取消被骑乘",
+        "versions": "2"
+    },
+    {
+        "value": "endprojectil",
+        "label": "强制结束抛射物",
+        "versions": "5.1.4"
+    },
+    {
+        "value": "equi",
+        "label": "穿戴物品(可为原版物品)",
+        "versions": "2"
+    },
+    {
+        "value": "explosio",
+        "label": "在技能目标位置生成爆炸",
+        "versions": "2"
+    },
+    {
+        "value": "extinguis",
+        "label": "熄灭技能目标身上的火",
+        "versions": "4.12"
+    },
+    {
+        "value": "pasteschemati",
+        "label": "粘贴1个schematic文件",
+        "versions": "4.11"
+    },
+    {
+        "value": "fee",
+        "label": "给予技能目标(玩家)饱和度",
+        "versions": "4.3"
+    },
+    {
+        "value": "fillches",
+        "label": "用物品与掉落表填充箱子",
+        "versions": "4.12"
+    },
+    {
+        "value": "fl",
+        "label": "给予技能目标一个允许飞行的光环",
+        "versions": "4.11"
+    },
+    {
+        "value": "forcepul",
+        "label": "将技能目标传送到自身位置",
+        "versions": "2"
+    },
+    {
+        "value": "freez",
+        "label": "将技能目标冻结一段时间(有霜冻屏幕效果需1.17)",
+        "versions": "4.13"
+    },
+    {
+        "value": "glo",
+        "label": "令技能目标发光(需glowapi)",
+        "versions": "4.1"
+    },
+    {
+        "value": "giveite",
+        "label": "给予技能目标物品(技能目标背包无空位时无效)",
+        "versions": "4.9"
+    },
+    {
+        "value": "giveitemfromslo",
+        "label": "给予技能目标位于自身指定槽位的物品(技能目标背包无空位时无效)",
+        "versions": "4.12"
+    },
+    {
+        "value": "giveitemfromtarge",
+        "label": "夺取技能目标物品并给予给施法者",
+        "versions": "4.13"
+    },
+    {
+        "value": "got",
+        "label": "强制施法者(非玩家)走向技能目标",
+        "versions": "4.14"
+    },
+    {
+        "value": "goatra",
+        "label": "强制施法者(山羊)向技能目标冲撞",
+        "versions": "5.0.3"
+    },
+    {
+        "value": "hea",
+        "label": "恢复技能目标生命(具体数值)",
+        "versions": "2"
+    },
+    {
+        "value": "healpercen",
+        "label": "恢复技能目标生命(技能目标最大生命百分比)",
+        "versions": "2"
+    },
+    {
+        "value": "hidefromplayer",
+        "label": "令所有玩家在指定时间内无法看见施法者(须为玩家)",
+        "versions": "4.13"
+    },
+    {
+        "value": "hologra",
+        "label": "在技能目标位置召唤悬浮字隐形盔甲架　",
+        "versions": "未知"
+    },
+    {
+        "value": "ignit",
+        "label": "点燃技能目标",
+        "versions": "2"
+    },
+    {
+        "value": "jsonmessag",
+        "label": "向技能目标(玩家)发送json信息",
+        "versions": "2.4"
+    },
+    {
+        "value": "jum",
+        "label": "跳向技能目标",
+        "versions": "2"
+    },
+    {
+        "value": "lea",
+        "label": "向技能目标冲刺",
+        "versions": "2"
+    },
+    {
+        "value": "lightnin",
+        "label": "在技能目标位置生成雷击",
+        "versions": "2.4"
+    },
+    {
+        "value": "loo",
+        "label": "看向技能目标(施法者不为玩家)",
+        "versions": "4.3"
+    },
+    {
+        "value": "lung",
+        "label": "朝技能目标冲刺(在低版本受技能目标位置的y轴影响)",
+        "versions": "4"
+    },
+    {
+        "value": "messag",
+        "label": "向技能目标(玩家)发送聊天栏信息",
+        "versions": "2.1"
+    },
+    {
+        "value": "modifyglobalscor",
+        "label": "修改虚拟技能目标:__global__在指定记分板上的分数",
+        "versions": "2.3"
+    },
+    {
+        "value": "modifymobscor",
+        "label": "设置技能目标或虚拟玩家在指定记分板上的分数",
+        "versions": "2.3"
+    },
+    {
+        "value": "modifytargetscor",
+        "label": "修改技能目标在指定记分板上的分数",
+        "versions": "2.3"
+    },
+    {
+        "value": "modifyscor",
+        "label": "修改虚拟技能目标在指定记分板上的分数",
+        "versions": "2.3"
+    },
+    {
+        "value": "moun",
+        "label": "生成mythicmobs实体并骑乘",
+        "versions": "2"
+    },
+    {
+        "value": "mountm",
+        "label": "令技能目标骑上施法者",
+        "versions": "4.9"
+    },
+    {
+        "value": "mounttarge",
+        "label": "令施法者骑上技能目标",
+        "versions": "未知"
+    },
+    {
+        "value": "oxyge",
+        "label": "给予技能目标(玩家)氧气",
+        "versions": "4.12"
+    },
+    {
+        "value": "playanimatio",
+        "label": "令技能目标播放指定动作(≥1.17)",
+        "versions": "4.13"
+    },
+    {
+        "value": "playblockbreaksoun",
+        "label": "播放技能目标位置的方块的破坏音效",
+        "versions": "4.12"
+    },
+    {
+        "value": "playblockhitsoun",
+        "label": "播放技能目标位置的方块的挖掘音效",
+        "versions": "4.12"
+    },
+    {
+        "value": "playblockplacesoun",
+        "label": "播放技能目标位置的方块的放置音效",
+        "versions": "4.12"
+    },
+    {
+        "value": "playblockstepsoun",
+        "label": "播放技能目标位置的方块的踩踏音效",
+        "versions": "4.12"
+    },
+    {
+        "value": "posearmorstan",
+        "label": "修改技能目标(盔甲架)姿势(需animatearmorstands)",
+        "versions": "2.5"
+    },
+    {
+        "value": "potio",
+        "label": "给予技能目标状态效果",
+        "versions": "2"
+    },
+    {
+        "value": "potionclea",
+        "label": "清除技能目标全部的状态效果",
+        "versions": "4.11"
+    },
+    {
+        "value": "priso",
+        "label": "令技能目标困在由方块组成的空间内",
+        "versions": "2.1"
+    },
+    {
+        "value": "prope",
+        "label": "朝技能目标冲刺(不受技能目标位置的y轴影响)",
+        "versions": "4.14"
+    },
+    {
+        "value": "pickupite",
+        "label": "拾取技能目标(掉落物实体)",
+        "versions": "4.14"
+    },
+    {
+        "value": "pul",
+        "label": "强制技能目标往施法者位置移动",
+        "versions": "2"
+    },
+    {
+        "value": "pushbutto",
+        "label": "按下所选取的所有位置的按钮",
+        "versions": "2"
+    },
+    {
+        "value": "rall",
+        "label": "令范围内的所有指定实体选取技能目标为技能目标",
+        "versions": "2"
+    },
+    {
+        "value": "randommessag",
+        "label": "随机发送多条聊天栏信息中的一条给技能目标(玩家)",
+        "versions": "2.1"
+    },
+    {
+        "value": "remoun",
+        "label": "重新骑上坐骑(若坐骑存活)",
+        "versions": "2.5"
+    },
+    {
+        "value": "remov",
+        "label": "移除技能目标(非玩家)",
+        "versions": "2"
+    },
+    {
+        "value": "removeheldite",
+        "label": "移除技能目标指定数量的手持物品",
+        "versions": "4.1"
+    },
+    {
+        "value": "removeowne",
+        "label": "令狼忘记主人",
+        "versions": "4.6"
+    },
+    {
+        "value": "runaigoalselecto",
+        "label": "修改技能目标(非玩家)的ai行动器",
+        "versions": "4.6"
+    },
+    {
+        "value": "runaitargetselecto",
+        "label": "修改技能目标(非玩家)的ai技能目标选择器",
+        "versions": "4.6"
+    },
+    {
+        "value": "sendactionmessag",
+        "label": "发送活动栏信息给技能目标(玩家)",
+        "versions": "2"
+    },
+    {
+        "value": "sendresourcepac",
+        "label": "发送资源包下载链接给技能目标(玩家)",
+        "versions": "4.6"
+    },
+    {
+        "value": "sendtitl",
+        "label": "发送标题信息给技能目标(玩家)",
+        "versions": "2"
+    },
+    {
+        "value": "sendtoas",
+        "label": "发送进度信息给技能目标(玩家)",
+        "versions": "4.8"
+    },
+    {
+        "value": "setai",
+        "label": "开关技能目标(非玩家)的ai",
+        "versions": "4.9"
+    },
+    {
+        "value": "setblocktyp",
+        "label": "修改所选取的所有位置的方块种类",
+        "versions": "4.7"
+    },
+    {
+        "value": "setcollidabl",
+        "label": "设置技能目标(非玩家)是否拥有碰撞箱",
+        "versions": "4.14"
+    },
+    {
+        "value": "setfactio",
+        "label": "修改技能目标所处的阵营",
+        "versions": "4.6"
+    },
+    {
+        "value": "setgamemod",
+        "label": "修改技能目标(玩家)的游戏模式",
+        "versions": "4.8"
+    },
+    {
+        "value": "setglidin",
+        "label": "设置技能目标身上的鞘翅飞行状态",
+        "versions": "4.8"
+    },
+    {
+        "value": "setglobalscor",
+        "label": "设置虚拟玩家:__global__在指定记分板的分数",
+        "versions": "2"
+    },
+    {
+        "value": "setgravit",
+        "label": "开关技能目标的重力",
+        "versions": "4.2"
+    },
+    {
+        "value": "sethealt",
+        "label": "设置技能目标的当前生命",
+        "versions": "4"
+    },
+    {
+        "value": "setleashholde",
+        "label": "将施法者牵着的栓绳递给技能目标",
+        "versions": "5.1.0"
+    },
+    {
+        "value": "setleve",
+        "label": "设置技能目标(非玩家)的等级",
+        "versions": "2.3"
+    },
+    {
+        "value": "setmaxhealt",
+        "label": "设置技能目标的最大生命",
+        "versions": "4"
+    },
+    {
+        "value": "setmobcolo",
+        "label": "设置技能目标(特定实体)的外观颜色",
+        "versions": "4.9"
+    },
+    {
+        "value": "setmobscor",
+        "label": "设置技能目标或虚拟玩家在指定记分板上的分数",
+        "versions": "2.3"
+    },
+    {
+        "value": "setnam",
+        "label": "设置技能目标(非玩家)的显示名",
+        "versions": "2"
+    },
+    {
+        "value": "setnodamagetick",
+        "label": "设置技能目标的受伤间隔",
+        "versions": "4.11"
+    },
+    {
+        "value": "setowne",
+        "label": "设置技能目标为施法者的主人",
+        "versions": "4"
+    },
+    {
+        "value": "setpathfindingmalu",
+        "label": "令技能目标避开指定类型的方块",
+        "versions": "5.1.0"
+    },
+    {
+        "value": "setraidercanjoinraide",
+        "label": "允许或禁止技能目标(掠夺者)加入一个灾厄巡逻队",
+        "versions": "5.1.3"
+    },
+    {
+        "value": "setraiderpatrolbloc",
+        "label": "令施法者(掠夺者)向技能目标所处位置巡逻",
+        "versions": "5.1.3"
+    },
+    {
+        "value": "setraiderpatrolleade",
+        "label": "令技能目标成为灾厄巡逻队队长或取消队长身份",
+        "versions": "5.1.3"
+    },
+    {
+        "value": "setrotatio",
+        "label": "设置技能目标(非玩家)朝向",
+        "versions": "4.12"
+    },
+    {
+        "value": "settarge",
+        "label": "将技能目标设为施法者的仇恨目标",
+        "versions": "5.2.0"
+    },
+    {
+        "value": "settargetscor",
+        "label": "设置技能目标在指定记分板上的分数",
+        "versions": "2"
+    },
+    {
+        "value": "setscor",
+        "label": "设置虚拟玩家在指定记分板上的分数",
+        "versions": "2"
+    },
+    {
+        "value": "setskillcooldow",
+        "label": "设置技能目标在指定技能组上的冷却",
+        "versions": "5.2.0"
+    },
+    {
+        "value": "setspee",
+        "label": "设置技能目标在指定移动状态下的移动速度",
+        "versions": "4.3"
+    },
+    {
+        "value": "setstanc",
+        "label": "设置技能目标的当前姿势",
+        "versions": "2"
+    },
+    {
+        "value": "shiel",
+        "label": "给予技能目标黄心",
+        "versions": "4.6"
+    },
+    {
+        "value": "shieldbrea",
+        "label": "令技能目标所持的盾牌进入指定秒数的冷却",
+        "versions": "4.14"
+    },
+    {
+        "value": "shieldpercen",
+        "label": "给予技能目标黄心(技能目标最大生命百分比)",
+        "versions": "4.6"
+    },
+    {
+        "value": "shootfirebal",
+        "label": "向技能目标发射火球",
+        "versions": "2"
+    },
+    {
+        "value": "shootpotio",
+        "label": "向技能目标投掷药水瓶",
+        "versions": "2"
+    },
+    {
+        "value": "shootskul",
+        "label": "向技能目标发射凋灵头颅",
+        "versions": "2"
+    },
+    {
+        "value": "shootshulkerbulle",
+        "label": "向技能目标发射潜影贝导弹",
+        "versions": "4.12"
+    },
+    {
+        "value": "showentit",
+        "label": "解除技能: hidefromplayer",
+        "versions": "5.1.2"
+    },
+    {
+        "value": "signa",
+        "label": "向技能目标发送信号",
+        "versions": "2.2"
+    },
+    {
+        "value": "spea",
+        "label": "发送聊天栏信息并以悬浮字形式显示文本",
+        "versions": "4.1"
+    },
+    {
+        "value": "stu",
+        "label": "晕眩技能目标",
+        "versions": "4.8"
+    },
+    {
+        "value": "suicid",
+        "label": "令施法者自杀",
+        "versions": "2"
+    },
+    {
+        "value": "summo",
+        "label": "在技能目标位置生成实体",
+        "versions": "2"
+    },
+    {
+        "value": "summonareaeffectclou",
+        "label": "在技能目标位置生成药水云",
+        "versions": "5"
+    },
+    {
+        "value": "swa",
+        "label": "与技能目标互换位置",
+        "versions": "4.11"
+    },
+    {
+        "value": "switc",
+        "label": "检测给定条件的给定修改项的值,并激活相对应的技能",
+        "versions": "4.13"
+    },
+    {
+        "value": "addta",
+        "label": "给予技能目标标签",
+        "versions": "2.3"
+    },
+    {
+        "value": "removeta",
+        "label": "移除技能目标的指定标签",
+        "versions": "2.3"
+    },
+    {
+        "value": "takeite",
+        "label": "移除技能目标(玩家)背包内的指定物品",
+        "versions": "4.14"
+    },
+    {
+        "value": "telepor",
+        "label": "传送到技能目标",
+        "versions": "2.1"
+    },
+    {
+        "value": "teleporti",
+        "label": "将指定技能目标传送到自身位置,可调整位置偏移",
+        "versions": "2.1"
+    },
+    {
+        "value": "teleportt",
+        "label": "将技能目标传送到所选取的所有位置",
+        "versions": "2.1"
+    },
+    {
+        "value": "threa",
+        "label": "修改技能目标对于施法者的威胁度",
+        "versions": "2"
+    },
+    {
+        "value": "thro",
+        "label": "击退技能目标",
+        "versions": "2"
+    },
+    {
+        "value": "toggleleve",
+        "label": "开关所选取的所有位置的拉杆",
+        "versions": "2.3"
+    },
+    {
+        "value": "togglesittin",
+        "label": "令技能目标(特定实体)坐下/站起",
+        "versions": "2"
+    },
+    {
+        "value": "tracklocatio",
+        "label": "记录技能目标的当前位置",
+        "versions": "4.13"
+    },
+    {
+        "value": "velocit",
+        "label": "设置技能目标的当前动量",
+        "versions": "2.2"
+    },
+    {
+        "value": "weathe",
+        "label": "修改技能目标所处世界的天气",
+        "versions": "4.7"
+    },
+    {
+        "value": "wolfsi",
+        "label": "令技能目标(狗)坐下",
+        "versions": "4.12"
+    }
+]
