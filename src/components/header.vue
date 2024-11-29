@@ -58,7 +58,7 @@
   <header>
     <div class="logo">
       <h2 class="iconfont">&#xe604;</h2>
-      <h1>MCBOX MythicMobs编辑器</h1>
+      <h1>MythicMobs编辑器</h1>
     </div>
     <div class="login">
       <div class="head_image">
